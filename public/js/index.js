@@ -15,8 +15,8 @@ const emailForm=document.querySelector("#emailForm")
 
 const toast=document.querySelector(".toast");
 
-const uploadURL=`http://localhost:3000/api/files`;
-const emailURL=`http://localhost:3000/api/files/send`;
+const uploadURL=`https://file-deliver-in.herokuapp.com/api/files`;
+const emailURL=`https://file-deliver-in.herokuapp.com/api/files/send`;
 
 const maxAllowrdSize= 100*1024*1024;
 // const uploadURL=
